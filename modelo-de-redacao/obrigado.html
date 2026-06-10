@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quase lá! Verifique seu e-mail</title>
+    <style>
+
+
+            
+        
+
+        :root {
+            --primary-color: #306263; 
+            --accent-color: var(--primary-color);  /* #47bea0 */
+            --bg-gradient: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            --success-color: var(--accent-color);
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg-gradient);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .cor-primary {
+            color: var(--primary-color)
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+
+        .check-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            margin: 0 auto 20px;
+            box-shadow: 0 4px 10px rgba(72, 187, 120, 0.3);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .instructions-box {
+            background: #fffaf0;
+            border: 1px dashed var(--accent-color);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        .instructions-box h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .instruction-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+            color: #2d3748;
+        }
+
+        .instruction-item span {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .btn-home {
+            display: inline-block;
+            margin-top: 30px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            transition: opacity 0.2s;
+        }
+
+        .btn-home:hover {
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="check-icon">✓</div>
+    <h1>Já está chegando!</h1>
+    <p>O seu <strong class="cor-primary">Mapa do Concurseiro Top 10</strong> já está a caminho do seu 
+        e-mail.</p>
+
+    <div class="instructions-box">
+        <h3>Importante:</h3>
+        
+        <div class="instruction-item">
+            <span>1.</span>
+            <div>Verifique sua <strong class="cor-primary">Caixa de Entrada</strong>. O e-mail deve chegar em menos de 2 minutos.</div>
+        </div>
+
+        <div class="instruction-item">
+            <span>2.</span>
+            <div>Olhe na pasta de <strong class="cor-primary">Spam ou Promoções</strong>. Se estiver lá, arraste o e-mail para a "Caixa de Entrada".</div>
+        </div>
+
+        <div class="instruction-item">
+            <span>3.</span>
+            <div>Adicione nosso email <strong class="cor-primary"><i><a mailto="contato@concurseirotop10.blog">contato@concurseirotop10.blog</a></i></strong> aos seus contatos para garantir que as próximas mensagens cheguem até você.</div>
+        </div>
+    </div>
+    <p>Enquanto isso, visite nosso Instagram e o nosso Blog para ter acesso a conteúdo de qualidade sobre concursos!</p>
+    
+    <a href="https://www.instagram.com/concurseirotop10.blog/" class="btn-home">
+        <img src="img/ig.png" width="36px" height="36px" /></a>
+    <a href="https://concurseirotop10.blog" class="btn-home">
+        <img src="img/blog.png" width="36px" height="36px" />
+    </a><br/>
+</div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"8601dd9d24a64a97bcc2e7ff461a5d06","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
