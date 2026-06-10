@@ -152,7 +152,7 @@
             <input type="email" id="email" name="email" placeholder="Seu melhor email" required>
         </div>
         
-        <input type="hidden" name="origem" value="isca-mapa">
+        <input type="hidden" name="origem" value="isca-modelo-redacao">
         
         <button type="submit" id="submitBtn">RECEBER O MODELO DE REDAÇÃO</button>
         <div id="loading" class="loading-spinner">Enviando seu email...</div>
@@ -180,7 +180,7 @@ document.getElementById('leadForm').addEventListener('submit', async (e) => {
     };
 
     try {
-        const response = await fetch('https://n8n.devoluapp.cloud/webhook/captacao-mapa-concurseiro-top10', {
+        const response = await fetch('https://n8n.devoluapp.cloud/webhook/captacao-modelo-redacao-concurseiro-top10', {
             method: 'POST',
             headers: { 
                 'Content-Type': 'application/json',
